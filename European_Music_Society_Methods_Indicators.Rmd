@@ -1,0 +1,54 @@
+---
+title: "Music, Society, and Citizenship: Novel data collection methods and indicators"
+subtitle: "DOI: 10.5281/zenodo.6464933"
+author:
+- Daniel Antal, CFA, Reprex & University of Amsterdam
+- Edwards, James, PhD, Sinus-Institut
+- Andrés García Molina, PhD, Reprex
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  md_document: default
+  word_document: default
+  html_document: default
+bibliography:
+- datascience.bib
+- mme.bib
+- legalccsi.bib
+- antal.bib
+- competition.bib
+- caselaw.bib
+- dcms.bib
+- digitalmusicobservatory.bib
+- packages.bib
+- musicindustry.bib
+- musicology.bib
+- statisticalmethodology.bib
+- datainteroperability.bib
+- eulaw.bib
+- openscience.bib
+- opa.bib
+- opendata.bib
+- rpackages.bib
+- valuation.bib
+- valuegap.bib
+---
+
+```{r setupdmoeconomypillar, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, out.width = '95%', fig.align = 'center')
+library(knitr)
+library(here)
+here::here()
+```
+
+## Abstract
+
+In the last decade, the evidence-based policy movement gained significant traction in Europe as well as globally. Its focus has been to increase the rigour of the evidence generated, to improve the credibility and understandability of evidence created for policy purposes.  As evidence-based policies often rely on scientific evidence, the evidence-based policy movement went hand in hand with the efforts to increase the transparency and reproducibility of scientific research (See: [@manifesto_for_reproducible_science_2017] and in an EU context [@JRC99722; @reproducibility_scientific_results_eu_2020; @progress_open_science_2020].)  
+
+Our [Report on the European Music, Society, and Citizenship](https://zenodo.org/record/6464900#.YlrfC9pBzIU), and its supporting document, [Music, Society, and Citizenship: Novel data collection methods and indicators](https://zenodo.org/record/6464933#.YlriRNpBzIV) will follow the Open Policy Analysis Guidelines and the best practices of the European Union's Knowledge For Policy and the [European Open Science Cloud](https://eosc-portal.eu/) portal.  
+
+The aim of this document is to *share an open report that includes clear accounts of all methodological procedures, data, and assumptions.* Best practice: All project components are organized in a selfcontained folder using a Standard File Structure (SFS), and a readme file is included. We place all files with SFS on the European open science repository Zenodo on [zenodo.org/communities/music_observatory/](https://zenodo.org/communities/music_observatory/).
+
+Subjects: [Reproducible research](https://id.loc.gov/authorities/subjects/sh2013002574.html); [Surveys](https://id.loc.gov/authorities/subjects/sh85130875.html); [Music audiences](http://id.loc.gov/authorities/subjects/sh87001384).
+
+Daniel Antal, Edwards, James, & Garcia, Andrés G.J. (2022). Music, Society, and Citizenship: Novel data collection methods and indicators (0.1). Zenodo. [https://doi.org/10.5281/zenodo.6464933](https://zenodo.org/record/6464933#.YlriRNpBzIV)
